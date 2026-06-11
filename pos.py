@@ -42,6 +42,7 @@ conn.commit()
 root = tk.Tk()
 root.title("Point of Sale")
 root.geometry("800x600")
+root.iconbitmap("cashregister.ico")
 
 notebook = ttk.Notebook(root)
 notebook.pack(fill="both", expand=True, padx=10, pady=10)
